@@ -84,10 +84,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6dc801750c5c47e0ac67742db9b01c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 100
   idle: {fileID: 11400000, guid: 6068de88f8d3b46bba6b8db33743f8d8, type: 2}
   moving: {fileID: 11400000, guid: 170ebe74e5c444a449a8c78d367c34a2, type: 2}
-  animator: {fileID: 0}
 --- !u!114 &114729434600666928
 MonoBehaviour:
   m_ObjectHideFlags: 1

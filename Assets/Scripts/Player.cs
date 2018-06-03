@@ -35,14 +35,12 @@ public class Player : MonoBehaviour
 
     Vector3 movement = new Vector3(x, 0.0f, z);
 
-    Debug.Log(movement);
-
     var anim = (x == 0 && z == 0) ? idle : moving;
     if (animator.File != anim)
     {
       animator.ChangeAnimation(anim);
     }
-    transform.Translate(movement * Time.deltaTime);
+    transform.Translate(movement * speed * Time.deltaTime);
   }
 
 }

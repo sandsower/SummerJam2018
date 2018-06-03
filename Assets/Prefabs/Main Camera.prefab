@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Target: {fileID: 4780222813749362, guid: 7f7534677473044089f15a07c18cfac5, type: 2}
   m_Distance: 10
-  m_Speed: 10
+  m_Speed: 30
   m_Center: {x: 0, y: 0}
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
